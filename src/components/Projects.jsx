@@ -26,7 +26,7 @@ const Projects = () => {
               <div className="project-overlay">
                 <h4>{project.title}</h4>
                 <p>{project.description}</p>
-                <a href="#" className="btn btn-outline-light">Voir le projet</a>
+                <a href="/projects" className="btn btn-outline-light">Voir le projet</a>
               </div>
             </div>
           </div>

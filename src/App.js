@@ -10,7 +10,7 @@ import Footer from './components/Footer';
 import './styles/styles.css';
 
 function App() {
-  const [darkMode, setDarkMode] = useState(true);
+  const [darkMode] = useState(true);
 
   return (
     <div className={darkMode ? 'dark-theme' : 'light-theme'}>

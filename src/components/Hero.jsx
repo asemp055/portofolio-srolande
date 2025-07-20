@@ -4,9 +4,10 @@ const Hero = () => {
     <section className="container-fluid p-0 slider" id="home">
       <div className="slider position-relative text-center d-flex align-items-center justify-content-center">
         <img 
-          src="/img/slider.jpg" 
+          src="/img/slider.jpg"  
+          alt=" fond abstrait" 
           className="slider-background position-absolute w-100 h-100" 
-          alt="Image de fond" 
+          
         />
         <div className="position-absolute top-50 start-50 translate-middle text-center slider-content">
           <h1 className="bubble-text">BONJOUR</h1>
